@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    margin-left: 70%;
+}
+ul{
+    display: flex;
+   text-align: center;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    margin: 20px;
+    color: mediumblue;   
+}
+#you{
+    background-color:lightblue;
+    text-align: center;
+    height: 800px;
+    width: 700px;
+    padding-right:15px ;
+    margin-left: 20%;
+    margin-top: 15px;
+}
+#img1{
+    border: 1px solid black;
+}
+#img2{
+    border: 1px solid black;
+}
+h1{
+    margin-top: 20px;
+    margin-left: 15px;
+    color: blue;
+}
+table{
+    border: 2px solid blue;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.thie{
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(0,0,0,0,15);
+    cursor: pointer;
+    margin: 100px auto;
+    border: 2px solid midnightblue;
+}
+thead tr{
+    background-color: midnightblue;
+    color:#fff;
+    text-align: left;
+}
+th,td{
+    padding: 15px 20px;
+}
+tbody tr,td,th{
+    border: 1px solid blue;
+}
+tbody tr:nth-child(even){
+    background-color: #fff;
+}
+tbody tr:last-of-type{
+    border-bottom: 2px solid midnightblue;
+}
+button{
+    background-color: midnightblue;
+    height: 50px;
+    color: #fff;
+}
+article{
+    background-color: whitesmoke;
+    width: 700px;
+    height: 250px;
+    margin-left: 30%;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+article p{
+    margin-left: 15px;
+    color: blue;
+}
+article h1{
+    color: black;
+}
+form{
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 540px;
+    height: 350px;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0,2);
+    margin-left: 30%;
+    margin-top: 15px;
+}
+.name-field{
+    width: 100%;
+    
+}
+.name-field div{
+    flex-direction: column;
+}
+.name-field div{
+    width: 49%;
+}
+label{
+    margin-bottom: 6px;
+}
+input{
+    margin-bottom: 5px;
+    padding: 5px;
+    outline: 0;
+    border: 1px solid rgba(0,0,0,0,4);
+    width: 515px;
+}
+input:focus{
+    border: 1px solid blue;
+
+}
+input[type="submit"]{
+    margin-top: 15px;
+    background-color: midnightblue;
+    color: #fff;
+    border: 1px solid midnightblue;
+    cursor: pointer;
+}
